@@ -15,6 +15,7 @@ public class todoServices {
 static Logger logger = LoggerFactory.getLogger(todoServices.class);
     static List<Todo>  todos  = new ArrayList<>();
 
+
     public static Todo createTodo(Todo todo) {
         todos.add(todo);
         logger.info("Todos {}", todos);

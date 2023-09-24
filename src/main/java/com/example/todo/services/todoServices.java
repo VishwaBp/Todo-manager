@@ -19,8 +19,6 @@ static Logger logger = LoggerFactory.getLogger(todoServices.class);
         logger.info("Todos {}", todos);
 
         return todo;
-
-
     }
 
   
